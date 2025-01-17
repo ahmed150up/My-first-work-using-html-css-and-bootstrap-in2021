@@ -1,0 +1,171 @@
+html{
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background: linear-gradient(135deg, #000000, #4e4e4e);
+
+}
+body {
+  overflow-y:unset;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-style: normal;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #333333, #FAFAFA);
+  }
+  
+  .hero {
+    color: white;
+  }
+  
+  .services .card {
+    transition: transform 0.3s ease;
+  }
+  .sessss{
+    margin-top: 30px;
+  }
+  
+  .services .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background: #111;
+    color: #bbb;
+  }
+  /* إعدادات الصورة الدائرية */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 40px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* إعدادات النص */
+  .bio {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+    color: #ccc;
+  }
+  /* زر واتساب */
+.whatsapp-contact .btn-success {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .whatsapp-contact .btn-success:hover {
+    background-color: #25d366; /* اللون الرسمي للواتساب */
+    transform: scale(1.05);
+  }
+/* تصميم الأيقونات */
+.card-body i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card-body i:hover {
+  transform: scale(1.2);
+}
+
+/* لون خاص للأيقونة الذهبية */
+.text-gold {
+  color: #ffd700;
+}
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: none; /* إزالة الخط التحتي */
+
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #ffffff;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+  color: #000;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #000000;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+.cta svg:hover {
+  stroke: #000000;
+
+}
+.cta span:hover {
+  color: #000000;
+
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+.csaas{
+  border-radius: 20px;
+}
+.csaas:hover{
+background-color: #ccc;
+border-radius: 20px;
+color:#000
+}
+.csaas a:hover{
+  background-color: #ccc;
+  border-radius: 20px;
+  color:#000
+}
+.csaas a{
+  color: #ffffff;
+  border-radius: 20px;
+
+}
